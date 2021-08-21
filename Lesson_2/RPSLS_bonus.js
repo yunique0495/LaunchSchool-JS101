@@ -136,5 +136,5 @@ do {
  
 } while (answer[0]  === 'y');
 
-console.clear()
+console.clear();
 prompt('THANK YOU FOR PLAYING. GOODBYE!');

@@ -21,7 +21,6 @@ while (!['1', '2', '3'].includes(lang)) {
 prompt('Please choose a valid language');
 lang = readline.question();
 }
-
 switch (lang) {
  case '1': lang = 'en';
   break;
@@ -55,7 +54,7 @@ let operation = readline.question();
 while (!['1', '2', '3', '4'].includes(operation)) {
   prompt('Must choose 1, 2, 3 or 4')
   operation = readline.question();
-    
+
 }
 
 let output;
