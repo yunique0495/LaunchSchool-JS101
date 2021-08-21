@@ -66,7 +66,7 @@ switch (operation) {
   break;
   case '2':
   output = Number(number1) - Number(number2);
-	break;
+  break;
   case '3':
   output = Number(number1) * Number(number2);
   break;
